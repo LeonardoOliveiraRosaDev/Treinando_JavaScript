@@ -1,0 +1,11 @@
+.btn-js{
+    padding: 5px;
+    background-image: linear-gradient(46deg, blue, rgb(200, 221, 245));
+    border: 1px transparent ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-js:hover{
+    background-image: linear-gradient(90deg,rgb(117, 117, 243, blue );
+}
