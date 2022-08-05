@@ -1,0 +1,4 @@
+/*SetTimeOut e SetInterval JAVASCRIPT
+
+
+*/
