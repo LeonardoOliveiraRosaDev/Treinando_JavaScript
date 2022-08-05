@@ -25,3 +25,43 @@ onresize -> Disparada quando há um redimencionamento da janela.
 
 
 */
+// Evento de Click
+// function eventoClick() {
+//     // alert('Acionou um evento de Click');
+//     document.body.style.backgroundColor = "yellow";
+// }
+
+// Evendo de doubleClick
+function evento() {
+    // alert('Evento de click Duplo');
+    document.body.style.backgroundColor = "red";
+}
+
+//Evento onmouseover
+function viraVermelho() {
+   let div = document.getElementById("teste");
+   div.style.backgroundColor ="red";
+}
+//Evento onmouseout
+function viraAzul(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor ="blue";
+}
+
+// function adicionaTexto(){
+//     let p = document.getElementById("texto");
+//     p.append('o mouse moveu <br>'); // esse append tem função de adicionar
+// }
+
+// function limpaTexto(){
+//     document.getElementById("campoTexto").value = "";
+// }
+
+function mudou(){
+    console.log('mudou')
+}
+
+function teclaPressionada(){
+   let input = document.getElementById("campoTexto").value;
+    console.log(input);
+}
