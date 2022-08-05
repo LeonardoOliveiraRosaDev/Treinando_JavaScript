@@ -9,3 +9,7 @@
 .btn-js:hover{
     background-image: linear-gradient(90deg,rgb(117, 117, 243, blue );
 }
+
+.btn-js{
+    background-color: pink;
+}
