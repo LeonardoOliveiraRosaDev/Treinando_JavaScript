@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/setTimeout_setInterval.css">
     <style>
         body{
             text-align: center;
-            color: blue;
         }
     </style>
     <title>SetTimeOut e SetInterval JS</title>
 </head>
 <body>
     <h1>SetTimeOut e SetInterval no JavaScipt</h1>
-    <p id="teste"></p>
+    
+    <section class="section1">
+        <div class="conteudo">
+            <p class="div-conteudo">
+                EVENTO DE TEMPO COM JAVASCRIPT
+
+Os Eventos de tempo permitem a execução do código
+em intervalos de tempo especificados. Esses intervalos
+de tempo são chamados de eventos de cronometragem.
+
+Os dois métodos-chave para usar com JavaScript são:
+
+setTimeout(function,tempo em milisegundos)
+-> executa uma função, depois de esperar um número
+especificado de milisegundos.
+
+setInterval (function, milisegundos)
+-> É o mesmo que setTimeout(), mas repete a execução
+da função continuamente.
+            </p>
+        </div>
+        <div class="exemplo">
+            <h1 class="crono">CRONOMETRO</h1>
+            <h2 id="tempo">10</h2>
+            <button onclick="ativarContagem()"class="start">Ativar Contagem</button>
+            <button onclick="pararContagem()" class="stop">Parar Contagem</button>
+            <p id="resposta"></p>
+
+        </div>
+    </section>
 
 
 

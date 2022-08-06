@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+}
+.conteudo{
+    background-color: rgb(224, 217, 217);
+    font-weight: bold;
+    border: 1px solid rgb(23, 3, 243);
+    width:50%;
+    margin-right: 2px;
+    text-align: center;
+
+}
+.div-conteudo{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
+.exemplo{
+    background-color: aqua;
+    border: 1px solid rgb(235, 111, 10);
+    width: 50%;
+}
+.crono{
+    color: blue;
+    text-decoration: underline;
+    /* font-weight: bold; */
+    font-family: 'Pacifico', cursive;
+}
+.start{
+    padding: 15px;
+    color: white;
+    background-image: linear-gradient(green, rgb(81, 226, 127));
+}
+
+.stop{
+    padding: 15px;
+    color: white;
+    background-image: linear-gradient(red, rgba(231, 105, 101, 0.904));
+}
